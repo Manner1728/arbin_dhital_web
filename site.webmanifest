@@ -1,0 +1,12 @@
+{
+  "name": "Arbin Dhital — Words, Devotion and Self-realization",
+  "short_name": "Arbin Dhital",
+  "description": "Poetry, literature, reflection and Krishna devotion.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07101f",
+  "theme_color": "#07101f",
+  "icons": [
+    {"src":"assets/images/logo-mark.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
