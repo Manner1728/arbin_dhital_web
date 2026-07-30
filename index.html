@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="ne" data-theme="dark" data-language="ne">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071419">
+  <meta name="description" content="अर्बिन धितालको आध्यात्मिक र साहित्यिक डिजिटल गृह—कविता, लेख, उपन्यास, योग, ध्यान, संगीत र श्रीकृष्ण भक्ति।">
+  <meta name="keywords" content="अर्बिन धिताल, Arbin Dhital, नेपाली कविता, साहित्य, योग, ध्यान, कृष्ण भक्ति">
+  <meta name="author" content="Arbin Dhital">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="अर्बिन धिताल — शब्ददेखि शून्यसम्म">
+  <meta property="og:description" content="कविता, चेतना, साधना र मधुर नादको जीवित डिजिटल आश्रम।">
+  <meta property="og:image" content="assets/images/hero-divine.png">
+  <meta property="og:locale" content="ne_NP">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://arbindhital.com.np/">
+  <link rel="icon" href="assets/images/logo-mark.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Arbin Dhital — शब्ददेखि शून्यसम्म</title>
+</head>
+<body>
+  <div class="page-progress" id="pageProgress" aria-hidden="true"></div>
+  <canvas class="ambient-canvas" id="ambientCanvas" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-light" id="cursorLight" aria-hidden="true"></div>
+
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__mandala"><img src="assets/images/logo-mark.svg" alt=""></div>
+    <p data-ne="मौनताको ढोका खुल्दैछ…" data-en="Opening the door to stillness…">मौनताको ढोका खुल्दैछ…</p>
+  </div>
+
+  <a class="skip-link" href="#main" data-ne="मुख्य सामग्रीमा जानुहोस्" data-en="Skip to content">मुख्य सामग्रीमा जानुहोस्</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="#home" aria-label="Arbin Dhital home">
+        <span class="brand__mark"><img src="assets/images/logo-mark.svg" alt="" width="48" height="48"></span>
+        <span><strong>Arbin Dhital</strong><small data-ne="शब्द • साधना • चेतना" data-en="Words • Practice • Awareness">शब्द • साधना • चेतना</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home" class="is-active" data-ne="गृह" data-en="Home">गृह</a>
+        <a href="#library" data-ne="रचना" data-en="Library">रचना</a>
+        <a href="#practice" data-ne="साधना" data-en="Practice">साधना</a>
+        <a href="#sound" data-ne="नाद" data-en="Sound">नाद</a>
+        <a href="#videos" data-ne="दृश्य" data-en="Videos">दृश्य</a>
+        <a href="#about" data-ne="परिचय" data-en="About">परिचय</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="round-button" id="themeToggle" type="button" aria-label="Switch color theme">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.6 5.6 7 7m10 10 1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/><circle cx="12" cy="12" r="4"/></svg>
+        </button>
+        <button class="language-button" id="languageToggle" type="button" aria-label="Switch language"><span>अ</span><b id="languageLabel">EN</b></button>
+        <button class="menu-button" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#home" data-ne="गृह" data-en="Home">गृह</a>
+      <a href="#library" data-ne="रचना" data-en="Library">रचना</a>
+      <a href="#practice" data-ne="साधना" data-en="Practice">साधना</a>
+      <a href="#sound" data-ne="नाद" data-en="Sound">नाद</a>
+      <a href="#videos" data-ne="दृश्य" data-en="Videos">दृश्य</a>
+      <a href="#about" data-ne="परिचय" data-en="About">परिचय</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero__media" aria-hidden="true"><img src="assets/images/hero-divine.png" alt=""></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__rings" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="container hero__layout">
+        <div class="hero__copy reveal">
+          <p class="eyebrow"><span></span><b data-ne="अर्बिन धितालको डिजिटल आश्रम" data-en="The digital sanctuary of Arbin Dhital">अर्बिन धितालको डिजिटल आश्रम</b></p>
+          <h1>
+            <span data-ne="शब्ददेखि" data-en="From words">शब्ददेखि</span>
+            <em data-ne="शून्यसम्म।" data-en="to stillness.">शून्यसम्म।</em>
+          </h1>
+          <p class="hero__lead" data-ne="कविता यहाँ केवल पढिँदैन—सुन्न, महसुस गर्न र मौनतासँग बस्न सकिन्छ। साहित्य, श्रीकृष्ण प्रेम, योग, ध्यान र अनन्त मधुर नादको जीवित संसार।" data-en="Poetry is not merely read here—it is heard, felt, and held beside silence. A living world of literature, Krishna devotion, yoga, meditation, and endless gentle sound.">कविता यहाँ केवल पढिँदैन—सुन्न, महसुस गर्न र मौनतासँग बस्न सकिन्छ। साहित्य, श्रीकृष्ण प्रेम, योग, ध्यान र अनन्त मधुर नादको जीवित संसार।</p>
+          <div class="hero__actions">
+            <a class="button button--gold" href="#library"><span data-ne="नयाँ रचना पढ्नुहोस्" data-en="Explore new writing">नयाँ रचना पढ्नुहोस्</span><b>↗</b></a>
+            <button class="button button--glass" id="quickFlute" type="button"><span class="pulse-dot"></span><span data-ne="अनन्त बाँसुरी बजाउनुहोस्" data-en="Play endless flute">अनन्त बाँसुरी बजाउनुहोस्</span></button>
+          </div>
+          <div class="hero__metrics" aria-label="Website content summary">
+            <div><strong id="poemCount">४</strong><small data-ne="कविता" data-en="Poems">कविता</small></div>
+            <div><strong id="writingCount">०</strong><small data-ne="लेख / उपन्यास" data-en="Articles / novels">लेख / उपन्यास</small></div>
+            <div><strong>∞</strong><small data-ne="ध्यान नाद" data-en="Meditation sound">ध्यान नाद</small></div>
+          </div>
+        </div>
+        <aside class="hero__note reveal reveal--delay">
+          <span class="hero__note-number">०१</span>
+          <div>
+            <small data-ne="आजको अन्तरवाक्य" data-en="Today’s inward note">आजको अन्तरवाक्य</small>
+            <blockquote data-ne="“मौनताले उत्तर दिँदैन—उसले प्रश्न गर्ने ‘म’ लाई नै शान्त पारिदिन्छ।”" data-en="“Silence does not answer; it gently quiets the self that insists on asking.”">“मौनताले उत्तर दिँदैन—उसले प्रश्न गर्ने ‘म’ लाई नै शान्त पारिदिन्छ।”</blockquote>
+          </div>
+          <img src="assets/images/lotus.svg" alt="" aria-hidden="true">
+        </aside>
+      </div>
+      <a class="scroll-cue" href="#library"><span data-ne="तल जानुहोस्" data-en="Descend">तल जानुहोस्</span><i></i></a>
+    </section>
+
+    <section class="section library" id="library">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow"><span></span><b data-ne="जीवित रचना-संग्रह" data-en="Living collection">जीवित रचना-संग्रह</b></p>
+            <h2 data-ne="मनको अक्षरालय" data-en="A library of the inner life">मनको अक्षरालय</h2>
+          </div>
+          <p data-ne="कविता, उपन्यास र लेखहरूको संग्रहमा शीर्षक वा शब्दबाट खोज्नुहोस्, अथवा विधा छान्नुहोस्।" data-en="Explore poems, novels and articles. Search by title or phrase, or choose a form.">कविता, उपन्यास र लेखहरूको संग्रहमा शीर्षक वा शब्दबाट खोज्नुहोस्, अथवा विधा छान्नुहोस्।</p>
+        </div>
+        <div class="library-toolbar reveal">
+          <label class="search-field">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <input id="contentSearch" type="search" placeholder="शीर्षक वा शब्द खोज्नुहोस्…" data-placeholder-ne="शीर्षक वा शब्द खोज्नुहोस्…" data-placeholder-en="Search titles or words…">
+          </label>
+          <div class="filter-list" id="contentFilters" role="group" aria-label="Content filters">
+            <button class="is-active" type="button" data-filter="all" data-ne="सबै" data-en="All">सबै</button>
+            <button type="button" data-filter="poem" data-ne="कविता" data-en="Poems">कविता</button>
+            <button type="button" data-filter="article" data-ne="लेख" data-en="Articles">लेख</button>
+            <button type="button" data-filter="novel" data-ne="उपन्यास" data-en="Novels">उपन्यास</button>
+          </div>
+        </div>
+        <div class="content-grid" id="contentGrid" aria-live="polite">
+          <div class="content-skeleton"></div><div class="content-skeleton"></div><div class="content-skeleton"></div>
+        </div>
+        <p class="empty-state" id="emptyState" hidden data-ne="यस खोजसँग मिल्ने रचना भेटिएन।" data-en="No writing matches this search.">यस खोजसँग मिल्ने रचना भेटिएन।</p>
+      </div>
+    </section>
+
+    <section class="section practice" id="practice">
+      <div class="practice__halo" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow"><span></span><b data-ne="शरीर • श्वास • चेतना" data-en="Body • Breath • Awareness">शरीर • श्वास • चेतना</b></p>
+            <h2 data-ne="दैनिक अन्तरशान्ति अभ्यास" data-en="A daily practice of inner peace">दैनिक अन्तरशान्ति अभ्यास</h2>
+          </div>
+          <p data-ne="गहिरो अभ्यासभन्दा पहिले सरलता आउँछ। शरीरलाई सहज राख्नुहोस्, श्वासलाई जबर्जस्ती नगर्नुहोस् र प्रत्येक अभ्यासपछि केही क्षण मौन बस्नुहोस्।" data-en="Simplicity precedes depth. Keep the body comfortable, never force the breath, and sit quietly for a few moments after every practice.">गहिरो अभ्यासभन्दा पहिले सरलता आउँछ। शरीरलाई सहज राख्नुहोस्, श्वासलाई जबर्जस्ती नगर्नुहोस् र प्रत्येक अभ्यासपछि केही क्षण मौन बस्नुहोस्।</p>
+        </div>
+        <div class="practice__feature reveal">
+          <div class="practice__image">
+            <img src="assets/images/vedic-guru-guidance.png" alt="A fictional Vedic teacher offering calm guidance in an ashram courtyard" loading="lazy">
+            <span data-ne="परम्पराको सार—अनुभवमा सरलता" data-en="The essence of tradition—simplicity in experience">परम्पराको सार—अनुभवमा सरलता</span>
+          </div>
+          <div class="practice__path">
+            <div class="path-tabs" role="tablist" aria-label="Practice categories">
+              <button class="is-active" type="button" role="tab" data-practice-tab="yoga" data-ne="सहज योग" data-en="Gentle yoga">सहज योग</button>
+              <button type="button" role="tab" data-practice-tab="meditation" data-ne="ध्यान" data-en="Meditation">ध्यान</button>
+              <button type="button" role="tab" data-practice-tab="peace" data-ne="अन्तरशान्ति" data-en="Inner peace">अन्तरशान्ति</button>
+            </div>
+            <div class="practice-panel is-active" data-practice-panel="yoga">
+              <ol>
+                <li><span>०१</span><div><strong data-ne="स्थिर तयारी · २ मिनेट" data-en="Arrive steadily · 2 min">स्थिर तयारी · २ मिनेट</strong><p data-ne="सुखासनमा बस्नुहोस्, काँध ढिलो छोड्नुहोस् र स्वाभाविक श्वास हेर्नुहोस्।" data-en="Sit comfortably, release the shoulders, and notice the natural breath.">सुखासनमा बस्नुहोस्, काँध ढिलो छोड्नुहोस् र स्वाभाविक श्वास हेर्नुहोस्।</p></div></li>
+                <li><span>०२</span><div><strong data-ne="मेरुदण्ड प्रवाह · ८ चक्र" data-en="Spinal flow · 8 rounds">मेरुदण्ड प्रवाह · ८ चक्र</strong><p data-ne="मार्जरी–बितिलासन बिस्तारै गर्नुहोस्; गति श्वाससँग मिलाउनुहोस्।" data-en="Move slowly through cat–cow, matching movement to breath.">मार्जरी–बितिलासन बिस्तारै गर्नुहोस्; गति श्वाससँग मिलाउनुहोस्।</p></div></li>
+                <li><span>०३</span><div><strong data-ne="बालासन र शवासन · ७ मिनेट" data-en="Child’s pose and rest · 7 min">बालासन र शवासन · ७ मिनेट</strong><p data-ne="शरीरलाई जमिनमा सुम्पँदै प्रयासको अवशेष पनि छोड्नुहोस्।" data-en="Let the body yield to the ground and release the residue of effort.">शरीरलाई जमिनमा सुम्पँदै प्रयासको अवशेष पनि छोड्नुहोस्।</p></div></li>
+              </ol>
+            </div>
+            <div class="practice-panel" data-practice-panel="meditation">
+              <ol>
+                <li><span>०१</span><div><strong data-ne="आसन र संकल्प · १ मिनेट" data-en="Seat and intention · 1 min">आसन र संकल्प · १ मिनेट</strong><p data-ne="सहज आसन रोजेर आज केवल साक्षी रहने संकल्प गर्नुहोस्।" data-en="Choose a comfortable posture and intend simply to witness.">सहज आसन रोजेर आज केवल साक्षी रहने संकल्प गर्नुहोस्।</p></div></li>
+                <li><span>०२</span><div><strong data-ne="श्वास गणना · ८ मिनेट" data-en="Count the breath · 8 min">श्वास गणना · ८ मिनेट</strong><p data-ne="प्रश्वासपछि एकदेखि दससम्म गन्नुहोस्; हराए फेरि एकबाट सुरु गर्नुहोस्।" data-en="Count one to ten after each exhale; when lost, begin again at one.">प्रश्वासपछि एकदेखि दससम्म गन्नुहोस्; हराए फेरि एकबाट सुरु गर्नुहोस्।</p></div></li>
+                <li><span>०३</span><div><strong data-ne="खुला चेतना · ३ मिनेट" data-en="Open awareness · 3 min">खुला चेतना · ३ मिनेट</strong><p data-ne="ध्वनि, संवेदना र विचारलाई आउन–जान दिनुहोस्—कुनैलाई समात्नु पर्दैन।" data-en="Let sound, sensation, and thought come and go without holding any of them.">ध्वनि, संवेदना र विचारलाई आउन–जान दिनुहोस्—कुनैलाई समात्नु पर्दैन।</p></div></li>
+              </ol>
+            </div>
+            <div class="practice-panel" data-practice-panel="peace">
+              <ol>
+                <li><span>०१</span><div><strong data-ne="५–४–६ श्वास · ५ चक्र" data-en="5–4–6 breath · 5 rounds">५–४–६ श्वास · ५ चक्र</strong><p data-ne="५ गणना भित्र, ४ सहज रोकाइ, ६ गणना बाहिर—असहज भए स्वाभाविक श्वासमा फर्कनुहोस्।" data-en="Inhale for 5, pause gently for 4, exhale for 6; return to normal breathing if uncomfortable.">५ गणना भित्र, ४ सहज रोकाइ, ६ गणना बाहिर—असहज भए स्वाभाविक श्वासमा फर्कनुहोस्।</p></div></li>
+                <li><span>०२</span><div><strong data-ne="शरीर अवलोकन · ५ मिनेट" data-en="Body scan · 5 min">शरीर अवलोकन · ५ मिनेट</strong><p data-ne="पाउदेखि शिरसम्म ध्यान लैजानुहोस्; बदल्न होइन, अनुभव गर्न।" data-en="Move attention from feet to head—not to fix, only to feel.">पाउदेखि शिरसम्म ध्यान लैजानुहोस्; बदल्न होइन, अनुभव गर्न।</p></div></li>
+                <li><span>०३</span><div><strong data-ne="मौन मन्त्र · २ मिनेट" data-en="Silent phrase · 2 min">मौन मन्त्र · २ मिनेट</strong><p data-ne="प्रश्वासमा ‘म छोड्छु’, श्वासमा ‘म खुल्छु’ भनी मनमनै दोहोर्‍याउनुहोस्।" data-en="Silently repeat “I release” on the exhale and “I open” on the inhale.">प्रश्वासमा ‘म छोड्छु’, श्वासमा ‘म खुल्छु’ भनी मनमनै दोहोर्‍याउनुहोस्।</p></div></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="breath-studio reveal">
+          <div class="breath-studio__copy">
+            <p class="mini-label" data-ne="साथमा अभ्यास गर्नुहोस्" data-en="Practice along">साथमा अभ्यास गर्नुहोस्</p>
+            <h3 data-ne="१२-मिनेट श्वास–ध्यान" data-en="12-minute breath meditation">१२-मिनेट श्वास–ध्यान</h3>
+            <p id="breathInstruction" data-ne="सुरु गर्न तलको बटन थिच्नुहोस्।" data-en="Press the button below to begin.">सुरु गर्न तलको बटन थिच्नुहोस्।</p>
+            <button class="button button--gold" id="breathStart" type="button" data-ne="अभ्यास सुरु गर्नुहोस्" data-en="Begin practice">अभ्यास सुरु गर्नुहोस्</button>
+          </div>
+          <div class="breath-orb" id="breathOrb" aria-hidden="true"><span id="breathTime">१२:००</span><i></i><i></i><i></i></div>
+          <p class="safety-note"><b data-ne="सचेत अभ्यास:" data-en="Practice gently:">सचेत अभ्यास:</b> <span data-ne="दुखाइ, चक्कर वा असहजता भए तुरुन्त रोक्नुहोस्। गर्भावस्था वा स्वास्थ्य समस्या भए योग्य स्वास्थ्यकर्मीको सल्लाह लिनुहोस्।" data-en="Stop immediately if you feel pain, dizziness, or distress. Seek qualified medical guidance for pregnancy or health conditions.">दुखाइ, चक्कर वा असहजता भए तुरुन्त रोक्नुहोस्। गर्भावस्था वा स्वास्थ्य समस्या भए योग्य स्वास्थ्यकर्मीको सल्लाह लिनुहोस्।</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sound" id="sound">
+      <div class="container sound__layout">
+        <div class="sound__copy reveal">
+          <p class="eyebrow"><span></span><b data-ne="नयाँ अनन्त ध्वनि–अनुभव" data-en="New continuous sound experience">नयाँ अनन्त ध्वनि–अनुभव</b></p>
+          <h2 data-ne="समयभन्दा लामो मधुर नाद" data-en="Gentle sound beyond the clock">समयभन्दा लामो मधुर नाद</h2>
+          <p data-ne="पुरानो छोटो धुनमा सीमित नरही, ब्राउजरमै जीवित रूपमा सिर्जना हुने बाँसुरी र ध्यान–नाद जति चाहनुहुन्छ त्यति लामो बज्छ। कुनै विज्ञापन छैन, कुनै स्ट्रिमिङ निर्भरता छैन।" data-en="Beyond the old short track, living flute and meditation soundscapes are created in the browser and can continue for as long as you wish—without ads or streaming dependence.">पुरानो छोटो धुनमा सीमित नरही, ब्राउजरमै जीवित रूपमा सिर्जना हुने बाँसुरी र ध्यान–नाद जति चाहनुहुन्छ त्यति लामो बज्छ। कुनै विज्ञापन छैन, कुनै स्ट्रिमिङ निर्भरता छैन।</p>
+          <div class="sound-presets" role="group" aria-label="Soundscape presets">
+            <button type="button" data-soundscape="flute"><span>◌</span><div><strong data-ne="अनन्त बाँसुरी" data-en="Endless flute">अनन्त बाँसुरी</strong><small data-ne="कोमल राग • निरन्तर" data-en="Gentle raga • continuous">कोमल राग • निरन्तर</small></div><b>▶</b></button>
+            <button type="button" data-soundscape="meditation"><span>◎</span><div><strong data-ne="ध्यान नाद" data-en="Meditation resonance">ध्यान नाद</strong><small data-ne="घण्टी • तानपुरा • वर्षा" data-en="Bells • drone • rain">घण्टी • तानपुरा • वर्षा</small></div><b>▶</b></button>
+            <button type="button" data-soundscape="silence"><span>◍</span><div><strong data-ne="मौन अन्तराल" data-en="Quiet interval">मौन अन्तराल</strong><small data-ne="सबै ध्वनि बन्द" data-en="Release all sound">सबै ध्वनि बन्द</small></div><b>■</b></button>
+          </div>
+        </div>
+        <div class="sound__visual reveal reveal--delay">
+          <img src="assets/images/krishna-glow.png" alt="Luminous Krishna with a flute" loading="lazy">
+          <div class="sound-wave" id="soundWave" aria-hidden="true"></div>
+          <div class="now-playing glass">
+            <span class="now-playing__disc"><i></i></span>
+            <div><small data-ne="अहिले" data-en="Now">अहिले</small><strong id="nowPlaying" data-ne="मौनता" data-en="Silence">मौनता</strong></div>
+            <button id="soundToggle" type="button" aria-label="Play or pause">▶</button>
+          </div>
+        </div>
+      </div>
+      <div class="container discovered-audio reveal">
+        <div class="subheading"><h3 data-ne="अपलोड गरिएका धुनहरू" data-en="Uploaded sounds">अपलोड गरिएका धुनहरू</h3><span id="audioCount">१</span></div>
+        <div class="media-list" id="audioList"></div>
+      </div>
+    </section>
+
+    <section class="section videos" id="videos">
+      <div class="container">
+        <div class="section-heading section-heading--split reveal">
+          <div>
+            <p class="eyebrow"><span></span><b data-ne="भक्ति र ध्यानका दृश्य" data-en="Devotional and meditative films">भक्ति र ध्यानका दृश्य</b></p>
+            <h2 data-ne="चलचित्रमय मौनता" data-en="Stillness in motion">चलचित्रमय मौनता</h2>
+          </div>
+          <p data-ne="ध्यान, भक्ति र आन्तरिक शान्तिका लागि चयन गरिएका दृश्यहरू यहाँ हेर्नुहोस्।" data-en="Watch selected films for meditation, devotion and inner calm.">ध्यान, भक्ति र आन्तरिक शान्तिका लागि चयन गरिएका दृश्यहरू यहाँ हेर्नुहोस्।</p>
+        </div>
+        <div class="video-grid" id="videoGrid">
+          <article class="video-card reveal">
+            <video controls playsinline preload="metadata" poster="assets/images/video-poster-meditation.jpg"><source src="assets/media/meditation-vision.mp4" type="video/mp4"></video>
+            <div><span>०१</span><h3 data-ne="ध्यानको अन्तरदृष्टि" data-en="A meditative vision">ध्यानको अन्तरदृष्टि</h3></div>
+          </article>
+          <article class="video-card video-card--wide reveal reveal--delay">
+            <video controls playsinline preload="metadata" poster="assets/images/video-poster-krishna.jpg"><source src="assets/media/krishna-radha-devotion.mp4" type="video/mp4"></video>
+            <div><span>०२</span><h3 data-ne="राधा–कृष्ण माधुर्य" data-en="The sweetness of Radha and Krishna">राधा–कृष्ण माधुर्य</h3></div>
+          </article>
+          <article class="video-card reveal reveal--delay-2">
+            <video controls playsinline preload="metadata" poster="assets/images/video-poster-vertical.jpg"><source src="assets/media/krishna-melody-vertical.mp4" type="video/mp4"></video>
+            <div><span>०३</span><h3 data-ne="श्रीकृष्णको मधुर धुन" data-en="Krishna’s gentle melody">श्रीकृष्णको मधुर धुन</h3></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about__layout">
+        <div class="about__portrait reveal">
+          <img src="assets/images/radha-krishna-glow.png" alt="Radiant Radha and Krishna in a moonlit garden" loading="lazy">
+          <div class="about__seal"><img src="assets/images/logo-mark.svg" alt=""><span data-ne="शब्दमा सत्य<br>मौनतामा स्वयं" data-en="Truth in words<br>Self in silence">शब्दमा सत्य<br>मौनतामा स्वयं</span></div>
+        </div>
+        <div class="about__copy reveal reveal--delay">
+          <p class="eyebrow"><span></span><b data-ne="अर्बिन धिताल" data-en="Arbin Dhital">अर्बिन धिताल</b></p>
+          <h2 data-ne="कविता, वैराग्य र प्रेमको बीचमा निरन्तर खोज।" data-en="An enduring search between poetry, detachment, and love.">कविता, वैराग्य र प्रेमको बीचमा निरन्तर खोज।</h2>
+          <p data-ne="यो स्थान कुनै निष्कर्षको घोषणा होइन; अनुभव, विरोधाभास र चेतनाका सूक्ष्म तहलाई शब्दमा सुन्ने प्रयास हो। यहाँ कविता, लेख, श्रीकृष्ण भक्ति, योग, ध्यान, भिडियो र संगीत एउटै अन्तरयात्राका फरक ढोका हुन्।" data-en="This place is not a declaration of conclusions, but an attempt to hear experience, paradox, and subtle awareness through words. Poetry, prose, Krishna devotion, yoga, meditation, film, and sound are different doors into one inward journey.">यो स्थान कुनै निष्कर्षको घोषणा होइन; अनुभव, विरोधाभास र चेतनाका सूक्ष्म तहलाई शब्दमा सुन्ने प्रयास हो। यहाँ कविता, लेख, श्रीकृष्ण भक्ति, योग, ध्यान, भिडियो र संगीत एउटै अन्तरयात्राका फरक ढोका हुन्।</p>
+          <div class="about__pillars">
+            <article><span>क</span><div><strong data-ne="कविता" data-en="Poetry">कविता</strong><small data-ne="अव्यक्तको भाषा" data-en="Language of the unspoken">अव्यक्तको भाषा</small></div></article>
+            <article><span>स</span><div><strong data-ne="साधना" data-en="Practice">साधना</strong><small data-ne="अनुभवको अनुशासन" data-en="Discipline of experience">अनुभवको अनुशासन</small></div></article>
+            <article><span>च</span><div><strong data-ne="चेतना" data-en="Awareness">चेतना</strong><small data-ne="साक्षीको उज्यालो" data-en="Light of witnessing">साक्षीको उज्यालो</small></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="container closing__card reveal">
+        <img src="assets/images/radha-krishna-glow.png" alt="" aria-hidden="true">
+        <div>
+          <p class="mini-label" data-ne="अन्त्य होइन, अन्तराल" data-en="Not an ending, an interval">अन्त्य होइन, अन्तराल</p>
+          <h2 data-ne="केही क्षण स्क्रिनबाट आँखा हटाउनुहोस्। आफ्नो श्वास सुन्नुहोस्।" data-en="Look away from the screen for a moment. Listen to your breath.">केही क्षण स्क्रिनबाट आँखा हटाउनुहोस्। आफ्नो श्वास सुन्नुहोस्।</h2>
+          <button class="button button--gold" id="oneMinuteSilence" type="button" data-ne="एक मिनेट मौन बस्नुहोस्" data-en="Sit in silence for one minute">एक मिनेट मौन बस्नुहोस्</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="brand"><span class="brand__mark"><img src="assets/images/logo-mark.svg" alt="" width="48" height="48"></span><span><strong>Arbin Dhital</strong><small data-ne="शब्द • साधना • चेतना" data-en="Words • Practice • Awareness">शब्द • साधना • चेतना</small></span></div>
+      <p data-ne="सिर्जना, साधना र शान्तिको एक स्वतन्त्र डिजिटल गृह।" data-en="An independent digital home for creativity, practice, and peace.">सिर्जना, साधना र शान्तिको एक स्वतन्त्र डिजिटल गृह।</p>
+      <a href="#top" class="back-top" aria-label="Back to top">↑</a>
+    </div>
+    <div class="container footer__bottom"><span>© <span id="year"></span> Arbin Dhital</span><span>arbindhital.com.np</span></div>
+  </footer>
+
+  <dialog class="reader-dialog" id="readerDialog">
+    <div class="reader-dialog__shell">
+      <button class="reader-dialog__close" id="readerClose" type="button" aria-label="Close">×</button>
+      <div class="reader-dialog__image"><img id="readerImage" src="assets/images/contemplation.jpg" alt=""></div>
+      <article class="reader-dialog__content">
+        <p class="mini-label" id="readerType">कविता</p>
+        <h2 id="readerTitle"></h2>
+        <p class="reader-dialog__author" id="readerAuthor"></p>
+        <div class="reader-dialog__tools">
+          <button id="copyContent" type="button" data-ne="प्रतिलिपि" data-en="Copy">प्रतिलिपि</button>
+          <button id="readerFocus" type="button" data-ne="शान्त पठन" data-en="Focus view">शान्त पठन</button>
+        </div>
+        <div class="reader-dialog__text" id="readerText"></div>
+      </article>
+    </div>
+  </dialog>
+
+  <div class="silence-overlay" id="silenceOverlay" aria-hidden="true">
+    <button id="silenceClose" type="button" aria-label="Close">×</button>
+    <div class="silence-overlay__orb"></div>
+    <strong id="silenceTime">०१:००</strong>
+    <p data-ne="केही नगर्नुहोस्। केवल श्वाससँग बस्नुहोस्।" data-en="Do nothing. Simply remain with the breath.">केही नगर्नुहोस्। केवल श्वाससँग बस्नुहोस्।</p>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
